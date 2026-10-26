@@ -84,7 +84,10 @@ git submodule update --init --recursive
 Aplica cuantización de 8 bits (*Post-Training Quantization*) al modelo TFLite. Luego, convierte el binario `.tflite` en una matriz plana de C++ utilizando la utilidad `xxd` en Ubuntu:
 
 ```bash
-# Convertir el binario TFLite a una matriz ejecutable C++
+# 1. Crear el directorio src si aún no existe
+mkdir -p src
+
+# 2. Convertir el binario TFLite a una matriz ejecutable C++
 xxd -i cnn_quantized_model.tflite > src/model_data.cpp
 ```
 
