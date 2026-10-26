@@ -1,8 +1,21 @@
 # Sistemas Operativos en Tiempo Real: caso FreeRTOS
 
+Bienvenido al taller de sistemas operativo en tiempo real para el caso de FreeRTOS. Este tutorial guía la configuración, compilación e implementación de un modelo de Inteligencia Artificial local (Edge AI) en una tarjeta de desarrollo STM32H7.
+
+## Estructura del Repositorio
 
 
-Este tutorial guía la configuración, compilación e implementación de un modelo de Inteligencia Artificial local (Edge AI) en una tarjeta de desarrollo STM32H7 utilizando la terminal de Ubuntu.
+stm32h7-edgeai-freertos/
+├── CMakeLists.txt          # Script de compilación CMake
+├── README.md               # Guía del proyecto
+├── config/
+│   └── FreeRTOSConfig.h    # Configuración del Kernel FreeRTOS
+├── src/
+│   ├── main.cpp            # Tarea de inferencia TFLite Micro
+│   ├── model_data.cpp      # Matriz de datos del modelo cuantizado
+│   └── model_data.h        # Encabezado del modelo
+└── drivers/
+    └── CMSIS/              # Bibliotecas CMSIS y CMSIS-NN
 
 Basado en las pruebas de rendimiento publicadas para el sistema:
 
