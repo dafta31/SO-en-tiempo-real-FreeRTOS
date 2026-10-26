@@ -6,16 +6,16 @@ Bienvenido al taller de sistemas operativo en tiempo real para el caso de FreeRT
 
 
 stm32h7-edgeai-freertos/
-├── CMakeLists.txt          # Script de compilación CMake
-├── README.md               # Guía del proyecto
+├── CMakeLists.txt # Script de compilación CMake
+├── README.md # Guía del proyecto
 ├── config/
-│   └── FreeRTOSConfig.h    # Configuración del Kernel FreeRTOS
+│   └── FreeRTOSConfig.h # Configuración del Kernel FreeRTOS
 ├── src/
-│   ├── main.cpp            # Tarea de inferencia TFLite Micro
-│   ├── model_data.cpp      # Matriz de datos del modelo cuantizado
-│   └── model_data.h        # Encabezado del modelo
+│   ├── main.cpp # Tarea de inferencia TFLite Micro
+│   ├── model_data.cpp # Matriz de datos del modelo cuantizado
+│   └── model_data.h # Encabezado del modelo
 └── drivers/
-    └── CMSIS/              # Bibliotecas CMSIS y CMSIS-NN
+    └── CMSIS/ # Bibliotecas CMSIS y CMSIS-NN
 
 Basado en las pruebas de rendimiento publicadas para el sistema:
 
