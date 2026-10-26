@@ -1,0 +1,3 @@
+/home/jose-vargas/Taller-RTOS/Taller-RTOS/build/CMakeFiles/stm32h7_edgeai.elf.dir
+/home/jose-vargas/Taller-RTOS/Taller-RTOS/build/CMakeFiles/edit_cache.dir
+/home/jose-vargas/Taller-RTOS/Taller-RTOS/build/CMakeFiles/rebuild_cache.dir
