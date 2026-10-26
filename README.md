@@ -56,7 +56,7 @@ cmake --version
 Crea la siguiente estructura de archivos en tu proyecto:
 
 ```text
-stm32h7-edgeai-freertos/
+Taller-RTOS/
 ├── CMakeLists.txt          # Script de compilación CMake
 ├── README.md               # Guía del proyecto
 ├── config/
@@ -72,8 +72,8 @@ stm32h7-edgeai-freertos/
 Para inicializar y clonar el repositorio con sus submódulos:
 
 ```bash
-git clone <URL-DE-TU-REPOSITORIO>
-cd stm32h7-edgeai-freertos
+git clone https://github.com/dafta31/Taller-RTOS.git
+cd Taller-RTOS
 git submodule update --init --recursive
 ```
 
