@@ -1,5 +1,8 @@
-# SO-en-tiempo-real-FreeRTOS
-En este repositorio se adjunta la presentación, el tutorial guida, resumen ejecutivo, demostración práctica y preguntas de evaluación del conocimiento de sistemas operativos en tiempo real específicamente en el caso de FreeRTOS.
+# Sistemas Operativos en Tiempo Real: caso FreeRTOS
+
+
+
+Este tutorial guía la configuración, compilación e implementación de un modelo de Inteligencia Artificial local (Edge AI) en una tarjeta de desarrollo STM32H7 utilizando la terminal de Ubuntu.
 
 Basado en las pruebas de rendimiento publicadas para el sistema:
 
