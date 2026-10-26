@@ -30,7 +30,7 @@ Basado en las pruebas de rendimiento publicadas para el sistema:
 Abre la terminal de Ubuntu e instala la cadena de herramientas de compilación cruzada (*Cross-Toolchain*) y las herramientas de depuración para ARM Cortex-M:
 
 ```bash
-# 1. Actualizar repositorios e instalar paquetes base de compilación
+# 1. Actualizar repositorios e instalar paquetes base de compilación y herramientas
 sudo apt update && sudo apt install -y \
     build-essential \
     cmake \
@@ -41,10 +41,10 @@ sudo apt update && sudo apt install -y \
     minicom \
     openocd
 
-# 2. Instalación del compilador cruzado GCC para ARM
-sudo apt install -y gcc-arm-none-eabi gdb-arm-none-eabi binutils-arm-none-eabi
+# 2. Instalación del compilador cruzado GCC para ARM y depurador compatible
+sudo apt install -y gcc-arm-none-eabi binutils-arm-none-eabi gdb-multiarch
 
-# 3. Verificación de versiones de las herramientas
+# 3. Verificación de versiones de las herramientas principales
 arm-none-eabi-gcc --version
 cmake --version
 ```
